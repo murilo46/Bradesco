@@ -1,0 +1,47 @@
+body {
+    font-family: Roboto, system-ui, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-image: url("imagem/bradescofundo.jpg");
+    background-size: cover;   
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+    font-family: italic;
+}
+
+
+.imagem-redonda {
+    border-radius: 50%;
+}
+  
+img {
+    max-width: 100%;
+    max-height: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 10vh;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #f2f2f2a1;
+    font-size: 10px;
+    padding: 1em;
+    text-align: center;
+}
